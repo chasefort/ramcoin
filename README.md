@@ -17,4 +17,4 @@ npm run check
 npm run build
 ```
 
-The CA control copies the supplied contract address. The official project X URL remains a placeholder in `site/script.js` until supplied. The page also links to Elon Musk's referenced X post and the Know Your Meme history of Absolute Unit.
+The CA control copies the supplied contract address, and the X action opens the official project account. The page also links to Elon Musk's referenced X post and the Know Your Meme history of Absolute Unit.

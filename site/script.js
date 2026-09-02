@@ -1,5 +1,5 @@
 const RAM = {
-  xUrl: "",
+  xUrl: "https://x.com/RAMcoinonRH",
   contractAddress: "0x0748deda6c5520312de2378a1fd6ac3421652638",
 };
 const xLink = document.querySelector("#x-link");
