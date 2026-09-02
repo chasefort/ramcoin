@@ -1,6 +1,6 @@
 # ABSOLUTE UNIT · $RAM site
 
-An interactive one-screen RAM site built around the supplied vintage ram photo. The richer shareholder-club wall presents the planned SK hynix paired asset and holder payout, while the portrait follows the pointer, sways gently, and reacts with a short “BAA” animation when clicked or tapped.
+An interactive one-screen RAM site built like a rough black-and-white newspaper front page. The supplied running-ram graphic is the sole hero image, the custom Alfa Slab One headline carries the ABSOLUTE UNIT name, and the SK hynix payout card stays readable on desktop and mobile. Click or tap the ram for a short “BAA” reaction.
 
 ## Commands
 
@@ -8,6 +8,6 @@ An interactive one-screen RAM site built around the supplied vintage ram photo. 
 - Check: `npm run check`
 - Build: `npm run build`
 
-Set `xUrl` and `contractAddress` at the top of `script.js`. Until then, the X and CA controls show “coming soon.” The Elon action links directly to the supplied X post. No environment variables or third-party services are required.
+Set `xUrl` and `contractAddress` at the top of `script.js`. Until then, the X and CA controls show “coming soon.” The Elon and lore actions link directly to the supplied sources. No environment variables or third-party services are required.
 
 The payout mechanism, rate, schedule, and eligibility rules remain unconfigured until exact launch details are supplied and verified.

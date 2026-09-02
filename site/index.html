@@ -3,94 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#303528" />
-    <meta name="description" content="ABSOLUTE UNIT. $RAM." />
+    <meta name="theme-color" content="#171714" />
+    <meta name="description" content="ABSOLUTE UNIT. $RAM. Memory pays memory." />
     <title>ABSOLUTE UNIT · $RAM</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href="assets/ram.jpeg" as="image" type="image/jpeg" />
+    <link rel="preload" href="assets/ram-running.jpg" as="image" type="image/jpeg" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="room">
-      <div class="wall-light" aria-hidden="true"></div>
-      <div class="dust" id="dust" aria-hidden="true"></div>
-      <div class="ceiling-line" aria-hidden="true"></div>
-
-      <section class="gallery" aria-labelledby="title">
-        <div class="portrait">
-          <div class="hanger" aria-hidden="true">
-            <span class="nail"></span>
-            <span class="wire wire-left"></span>
-            <span class="wire wire-right"></span>
-          </div>
-
-          <div class="frame-stage" id="frame-stage">
-            <div class="frame-shadow" aria-hidden="true"></div>
-            <div class="frame" id="frame">
-              <span class="corner corner-tl" aria-hidden="true"></span>
-              <span class="corner corner-tr" aria-hidden="true"></span>
-              <span class="corner corner-bl" aria-hidden="true"></span>
-              <span class="corner corner-br" aria-hidden="true"></span>
-              <div class="frame-inner">
-                <div class="mat">
-                  <button class="photo-wrap" id="portrait-button" type="button" aria-label="Make RAM move">
-                    <img
-                      class="photo"
-                      src="assets/ram.jpeg"
-                      alt="A prize ram standing at an agricultural show"
-                      width="400"
-                      height="400"
-                    />
-                    <span class="glass-glare" aria-hidden="true"></span>
-                    <span class="baa" aria-hidden="true">BAA</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="plaque" id="plaque">
-            <span class="plaque-flourish" aria-hidden="true">◆</span>
-            <div>
-              <h1 id="title">ABSOLUTE UNIT</h1>
-              <p>$RAM</p>
-            </div>
-            <span class="plaque-flourish" aria-hidden="true">◆</span>
-          </div>
-
-          <nav class="actions" aria-label="RAM links">
-            <a class="action" id="x-link" href="#" aria-disabled="true"><span>X</span><small>FOLLOW</small></a>
-            <button class="action" id="ca-button" type="button"><span>CA</span><small>COPY</small></button>
-            <a class="action" id="elon-link" href="https://x.com/elonmusk/status/1118600979329339393" target="_blank" rel="noreferrer"><span>ELON</span><small>TWEET</small></a>
-          </nav>
-          <p class="status" id="status" aria-live="polite"></p>
+    <main class="poster">
+      <div class="grain" aria-hidden="true"></div>
+      <header class="masthead">
+        <a class="coin-mark" href="#top" aria-label="Absolute Unit home">
+          <span class="coin-mark__ram">$RAM</span>
+        </a>
+        <nav class="nav" aria-label="RAM links">
+          <a id="x-link" href="#" aria-disabled="true">X</a>
+          <button id="ca-button" type="button">COPY CA</button>
+          <a href="https://x.com/elonmusk/status/1118600979329339393" target="_blank" rel="noreferrer">ELON TWEET ↗</a>
+          <a href="https://knowyourmeme.com/memes/absolute-unit" target="_blank" rel="noreferrer">THE LORE ↗</a>
+        </nav>
+      </header>
+      <section class="hero" id="top" aria-labelledby="title">
+        <div class="hero-copy">
+          <h1 id="title"><span>ABSOLUTE</span><span>UNIT</span></h1>
+          <p class="meme-line">IN AWE AT THE SIZE<br />OF THIS LAD.</p>
+          <p class="catchphrase">HOW MUCH <b>$RAM</b><br />DO YOU HAVE?</p>
         </div>
-
-        <aside class="wall-card payout-card" aria-label="RAM holder payout information">
-          <span class="card-kicker">PAIRED ASSET</span>
-          <strong>SK hynix</strong>
-          <span class="stock-code">000660 · KS</span>
-          <span class="card-rule" aria-hidden="true"></span>
-          <span class="payout-copy">RAM holders paid<br />in SK hynix</span>
+        <button class="ram-scene" id="ram-scene" type="button" aria-label="Make the Absolute Unit ram say baa">
+          <span class="burst burst-one" aria-hidden="true">✦</span><span class="burst burst-two" aria-hidden="true">✦</span>
+          <span class="scene-stack" id="scene-stack">
+            <img class="scene is-active" src="assets/ram-running.jpg" alt="The Absolute Unit ram sprinting through a field" width="1254" height="1254" />
+          </span>
+          <span class="baa" id="baa" aria-hidden="true">BAA!</span><span class="tap-note">PRESS FOR BAA</span>
+        </button>
+        <aside class="payout" aria-label="RAM holder payout information">
+          <span class="payout__stamp">PAIRED ASSET</span><strong>SK hynix</strong><span class="payout__code">000660 · KS</span>
+          <span class="payout__line">RAM HOLDERS<br />PAID IN SK HYNIX</span>
         </aside>
+        <p class="status" id="status" aria-live="polite"></p>
       </section>
-
-      <div class="memory-tape" aria-hidden="true">
-        <div class="tape-track">
-          <div class="tape-group">
-            <span>RAM&nbsp;&nbsp;•&nbsp;&nbsp;SK HYNIX&nbsp;&nbsp;•&nbsp;&nbsp;000660&nbsp;&nbsp;•&nbsp;&nbsp;MEMORY PAYS MEMORY&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-            <span>RAM&nbsp;&nbsp;•&nbsp;&nbsp;SK HYNIX&nbsp;&nbsp;•&nbsp;&nbsp;000660&nbsp;&nbsp;•&nbsp;&nbsp;MEMORY PAYS MEMORY&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-            <span>RAM&nbsp;&nbsp;•&nbsp;&nbsp;SK HYNIX&nbsp;&nbsp;•&nbsp;&nbsp;000660&nbsp;&nbsp;•&nbsp;&nbsp;MEMORY PAYS MEMORY&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-          </div>
-          <div class="tape-group">
-            <span>RAM&nbsp;&nbsp;•&nbsp;&nbsp;SK HYNIX&nbsp;&nbsp;•&nbsp;&nbsp;000660&nbsp;&nbsp;•&nbsp;&nbsp;MEMORY PAYS MEMORY&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-            <span>RAM&nbsp;&nbsp;•&nbsp;&nbsp;SK HYNIX&nbsp;&nbsp;•&nbsp;&nbsp;000660&nbsp;&nbsp;•&nbsp;&nbsp;MEMORY PAYS MEMORY&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-            <span>RAM&nbsp;&nbsp;•&nbsp;&nbsp;SK HYNIX&nbsp;&nbsp;•&nbsp;&nbsp;000660&nbsp;&nbsp;•&nbsp;&nbsp;MEMORY PAYS MEMORY&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-          </div>
-        </div>
-      </div>
+      <div class="ticker" aria-hidden="true"><div class="ticker__track">
+        <div class="ticker__group"><span>ABSOLUTE UNIT&nbsp; ✦ &nbsp;$RAM&nbsp; ✦ &nbsp;SK HYNIX&nbsp; ✦ &nbsp;000660&nbsp; ✦ &nbsp;MEMORY PAYS MEMORY&nbsp; ✦ &nbsp;</span><span>ABSOLUTE UNIT&nbsp; ✦ &nbsp;$RAM&nbsp; ✦ &nbsp;SK HYNIX&nbsp; ✦ &nbsp;000660&nbsp; ✦ &nbsp;MEMORY PAYS MEMORY&nbsp; ✦ &nbsp;</span><span>ABSOLUTE UNIT&nbsp; ✦ &nbsp;$RAM&nbsp; ✦ &nbsp;SK HYNIX&nbsp; ✦ &nbsp;000660&nbsp; ✦ &nbsp;MEMORY PAYS MEMORY&nbsp; ✦ &nbsp;</span></div>
+        <div class="ticker__group"><span>ABSOLUTE UNIT&nbsp; ✦ &nbsp;$RAM&nbsp; ✦ &nbsp;SK HYNIX&nbsp; ✦ &nbsp;000660&nbsp; ✦ &nbsp;MEMORY PAYS MEMORY&nbsp; ✦ &nbsp;</span><span>ABSOLUTE UNIT&nbsp; ✦ &nbsp;$RAM&nbsp; ✦ &nbsp;SK HYNIX&nbsp; ✦ &nbsp;000660&nbsp; ✦ &nbsp;MEMORY PAYS MEMORY&nbsp; ✦ &nbsp;</span><span>ABSOLUTE UNIT&nbsp; ✦ &nbsp;$RAM&nbsp; ✦ &nbsp;SK HYNIX&nbsp; ✦ &nbsp;000660&nbsp; ✦ &nbsp;MEMORY PAYS MEMORY&nbsp; ✦ &nbsp;</span></div>
+      </div></div>
     </main>
-
     <script src="script.js"></script>
   </body>
 </html>
