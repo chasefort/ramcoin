@@ -14,6 +14,21 @@ const portraitButton = document.querySelector("#portrait-button");
 const plaque = document.querySelector("#plaque");
 const dust = document.querySelector("#dust");
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+const tapeGroups = [...document.querySelectorAll(".tape-group")];
+
+const fillTape = () => {
+  const [lead, copy] = tapeGroups;
+  if (!lead || !copy) return;
+
+  while (lead.scrollWidth < window.innerWidth + 480) {
+    lead.append(lead.firstElementChild.cloneNode(true));
+  }
+
+  copy.replaceChildren(...[...lead.children].map((item) => item.cloneNode(true)));
+};
+
+fillTape();
+window.addEventListener("resize", fillTape, { passive: true });
 
 for (let index = 0; index < 18; index += 1) {
   const mote = document.createElement("span");

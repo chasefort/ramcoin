@@ -10,4 +10,4 @@ An interactive one-screen RAM site built around the supplied vintage ram photo. 
 
 Set `xUrl` and `contractAddress` at the top of `script.js`. Until then, the X and CA controls show “coming soon.” No environment variables or third-party services are required.
 
-The visible payout terms remain pending until the exact launch mechanism, rate, schedule, and eligibility rules are supplied and verified.
+The payout mechanism, rate, schedule, and eligibility rules remain unconfigured until exact launch details are supplied and verified.
