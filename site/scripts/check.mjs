@@ -10,5 +10,5 @@ for (const marker of ['<h1 id="title"><span>ABSOLUTE</span><span>UNIT</span></h1
   if (!html.includes(marker)) throw new Error(`Missing required marker: ${marker}`);
 }
 const script = await readFile(resolve(root, "script.js"), "utf8");
-if (!script.includes('xUrl: ""') || !script.includes('contractAddress: ""')) throw new Error("RAM link configuration is missing");
+if (!script.includes('xUrl: ""') || !script.includes('contractAddress: "0x0748deda6c5520312de2378a1fd6ac3421652638"')) throw new Error("RAM link configuration is missing");
 console.log("Source check passed");

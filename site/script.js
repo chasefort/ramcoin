@@ -1,4 +1,7 @@
-const RAM = { xUrl: "", contractAddress: "" };
+const RAM = {
+  xUrl: "",
+  contractAddress: "0x0748deda6c5520312de2378a1fd6ac3421652638",
+};
 const xLink = document.querySelector("#x-link");
 const caButton = document.querySelector("#ca-button");
 const status = document.querySelector("#status");
