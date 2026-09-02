@@ -1,0 +1,13 @@
+# Private studio material
+/PROJECT.md
+/assets/
+/launch/
+/lore/
+/research/
+
+# Generated and local files
+site/dist/
+node_modules/
+.vercel/
+.DS_Store
+*.log
