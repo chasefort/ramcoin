@@ -352,6 +352,67 @@ h1 span:last-child {
   .ram-scene { grid-column: 2; grid-row: 1; }
 }
 
+@media (min-width: 621px) and (max-width: 800px) {
+  .hero {
+    display: block;
+    min-height: calc(100svh - 104px);
+    padding: 1rem 1.25rem 4rem;
+  }
+
+  .hero-copy {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: clamp(5.5rem, 14vw, 6.5rem);
+    line-height: 0.72;
+    text-align: center;
+    transform: none;
+  }
+
+  h1 span:last-child {
+    width: min(21rem, 68%);
+    margin: 0.14em auto 0;
+  }
+
+  .meme-line {
+    position: absolute;
+    top: calc(100% + 1.2rem);
+    left: 0.4rem;
+    margin: 0;
+    font-size: 0.68rem;
+  }
+
+  .catchphrase {
+    top: calc(100% + 1.4rem);
+    right: 0.6rem;
+    bottom: auto;
+    font-size: 1rem;
+  }
+
+  .ram-scene {
+    width: min(68vw, 32rem);
+    margin: 3.3rem auto 0;
+  }
+
+  .scene-stack {
+    aspect-ratio: 1.12;
+    box-shadow: 10px 10px 0 var(--ink);
+  }
+
+  .payout {
+    position: absolute;
+    bottom: 4.4rem;
+    left: 1.5rem;
+    width: 14rem;
+    padding: 0.85rem;
+    box-shadow: 6px 6px 0 var(--ink);
+  }
+
+  .payout strong { font-size: 1.7rem; }
+  .payout__line { margin-top: 0.7rem; padding-top: 0.6rem; font-size: 1rem; }
+}
+
 @media (max-width: 620px) {
   .poster { min-height: 100svh; }
   .masthead { min-height: 48px; }
