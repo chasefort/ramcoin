@@ -17,4 +17,4 @@ npm run check
 npm run build
 ```
 
-The X URL and contract address remain placeholders in `site/script.js` until the official values are supplied.
+The official project X URL and contract address remain placeholders in `site/script.js` until supplied. The page also links directly to Elon Musk's referenced X post.

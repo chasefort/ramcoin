@@ -7,7 +7,7 @@ const required = ["index.html", "styles.css", "script.js", "assets/ram.jpeg", "a
 await Promise.all(required.map((file) => access(resolve(root, file))));
 
 const html = await readFile(resolve(root, "index.html"), "utf8");
-for (const marker of ['<h1 id="title">ABSOLUTE UNIT</h1>', '<p>$RAM</p>', 'id="x-link"', 'id="ca-button"', 'assets/ram.jpeg', 'SK hynix', 'RAM holders paid']) {
+for (const marker of ['<h1 id="title">ABSOLUTE UNIT</h1>', '<p>$RAM</p>', 'id="x-link"', 'id="ca-button"', 'id="elon-link"', 'https://x.com/elonmusk/status/1118600979329339393', 'assets/ram.jpeg', 'SK hynix', 'RAM holders paid']) {
   if (!html.includes(marker)) throw new Error(`Missing required marker: ${marker}`);
 }
 

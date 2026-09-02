@@ -397,11 +397,11 @@ button, a { font: inherit; }
 
 .plaque-flourish { color: #65471f; font-size: 0.55rem; }
 
-.actions { display: flex; gap: 0.7rem; margin-top: 0.85rem; }
+.actions { display: flex; gap: 0.6rem; margin-top: 0.85rem; }
 
 .action {
   display: grid;
-  min-width: 5.3rem;
+  min-width: 5rem;
   min-height: 3rem;
   place-items: center;
   gap: 0.18rem;
