@@ -1,4 +1,4 @@
-# RAM site
+# ABSOLUTE UNIT · $RAM site
 
 An interactive one-screen RAM site built around the supplied vintage ram photo. The richer shareholder-club wall presents the planned SK hynix paired asset and holder payout, while the portrait follows the pointer, sways gently, and reacts with a short “BAA” animation when clicked or tapped.
 

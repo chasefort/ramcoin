@@ -377,20 +377,21 @@ button, a { font: inherit; }
 .plaque h1 {
   margin: 0;
   color: #24180b;
-  font-size: clamp(1.35rem, 3vw, 1.8rem);
+  font-size: clamp(1rem, 2.35vw, 1.5rem);
   font-weight: 700;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.17em;
   line-height: 0.95;
-  text-indent: 0.3em;
+  text-indent: 0.17em;
   text-shadow: 0 1px rgb(255 239 187 / 0.65), 0 -1px rgb(46 30 10 / 0.4);
 }
 
 .plaque p {
   margin: 0.32rem 0 0;
   color: #443014;
-  font-size: 0.55rem;
-  font-style: italic;
-  letter-spacing: 0.12em;
+  font-size: 0.62rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 

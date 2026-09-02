@@ -1,4 +1,4 @@
-# RAM
+# ABSOLUTE UNIT · $RAM
 
 An interactive one-screen coin site built around a framed vintage ram photograph and a planned SK hynix holder-payout pairing.
 
